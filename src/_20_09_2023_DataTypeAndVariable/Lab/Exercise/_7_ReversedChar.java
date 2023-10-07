@@ -1,4 +1,4 @@
-package _20_09_2023_DataTypeAndVariable.Lab;
+package _20_09_2023_DataTypeAndVariable.Lab.Exercise;
 
 import java.util.Scanner;
 
