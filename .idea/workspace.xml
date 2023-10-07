@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ff11cf8-055a-4552-b7a4-9fdc5c16979a" name="Changes" comment="committed 07/10/23">
-      <change afterPath="$PROJECT_DIR$/src/_04_10_2023_Mathods/Task/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_04_10_2023_Mathods/Task/_1_SmallestOfThreeNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_04_10_2023_Mathods/Task/_2_VowelsCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_04_10_2023_Mathods/Task/_5_AddAndSubtract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_04_10_2023_Mathods/Task/_3_CharactersInRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_04_10_2023_Mathods/Task/_6_MiddleCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_04_10_2023_Mathods/Task/_8_FactorialDivision.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_04_10_2023_Mathods/ExerciseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04_10_2023_Mathods/Exercise/ExerciseClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,33 +40,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application._5_AddAndSubtract_1​">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_04_10_2023_Mathods.Task.Demo" />
-      <module name="ProgrammingFundamentals-September2023" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_04_10_2023_Mathods.Task.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_1_SmallestOfThreeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_04_10_2023_Mathods.Task._1_SmallestOfThreeNumbers" />
-      <module name="ProgrammingFundamentals-September2023" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_04_10_2023_Mathods.Task.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application._3_CharactersInRange">
     <configuration name="_2_VowelsCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_04_10_2023_Mathods.Task._2_VowelsCount" />
       <module name="ProgrammingFundamentals-September2023" />
@@ -82,12 +54,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_3_PrintingTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_04_10_2023_Mathods.Exercise._3_PrintingTriangle" />
+    <configuration name="_3_CharactersInRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_04_10_2023_Mathods.Task._3_CharactersInRange" />
       <module name="ProgrammingFundamentals-September2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_04_10_2023_Mathods.Exercise.*" />
+          <option name="PATTERN" value="_04_10_2023_Mathods.Task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,13 +80,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_6_MiddleCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_04_10_2023_Mathods.Task._6_MiddleCharacters" />
+      <module name="ProgrammingFundamentals-September2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_04_10_2023_Mathods.Task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_8_FactorialDivision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_04_10_2023_Mathods.Task._8_FactorialDivision" />
+      <module name="ProgrammingFundamentals-September2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_04_10_2023_Mathods.Task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._3_CharactersInRange" />
+        <item itemvalue="Application._6_MiddleCharacters" />
+        <item itemvalue="Application._8_FactorialDivision" />
         <item itemvalue="Application._5_AddAndSubtract_1​" />
         <item itemvalue="Application._2_VowelsCount" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application._1_SmallestOfThreeNumbers" />
-        <item itemvalue="Application._3_PrintingTriangle" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696693176265</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="committed 07/10/23">
+      <created>1696697657934</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696697657934</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +187,21 @@
           <url>file://$PROJECT_DIR$/src/_04_10_2023_Mathods/Task/_5_AddAndSubtract.java</url>
           <line>12</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_04_10_2023_Mathods/Task/_8_FactorialDivision.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_04_10_2023_Mathods/Task/_6_MiddleCharacters.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_04_10_2023_Mathods/Task/_3_CharactersInRange.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
