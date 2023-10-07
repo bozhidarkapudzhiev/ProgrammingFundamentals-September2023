@@ -1,4 +1,4 @@
-package _04_10_2023_Mathods;
+package _04_10_2023_Mathods.Exercise;
 
 import java.util.Scanner;
 
