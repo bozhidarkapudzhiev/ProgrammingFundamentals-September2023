@@ -8,16 +8,16 @@ public class _2_Grades {
         double grade=Double.parseDouble(scanner.nextLine());
         printGrade(grade);
     }
-    public static void printGrade(double grade){
+    public static void printGrade(double grade) {
         if (grade<=2.99){
-            System.out.print("Fail");
-        }else if (grade<=3.49){
+            System.out.println("Fail");
+        }else if (grade<=3.33){
             System.out.println("Poor");
-        } else if (grade<=4.49) {
+        }else if (grade<4.50){
             System.out.println("Good");
-        } else if (grade<=5.49) {
+        }else if(grade<5.49){
             System.out.println("Very good");
-        } else if (grade>=5.50){
+        } else if (grade>=5.50) {
             System.out.println("Excellent");
         }
     }

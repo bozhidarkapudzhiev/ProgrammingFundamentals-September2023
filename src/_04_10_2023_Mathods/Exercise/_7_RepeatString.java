@@ -4,19 +4,20 @@ import java.util.Scanner;
 
 public class _7_RepeatString {
     public static void main(String[] args) {
-            Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
+        String text = scanner.nextLine();
+        int count = Integer.parseInt(scanner.nextLine());
+        String result = reapeatString(text, count);
+        System.out.println(result);
 
+    }
 
-            String text=scanner.nextLine();
-            int count=Integer.parseInt(scanner.nextLine());
-            String result=repeatString(text,count);
-            System.out.println(result);
-        }
-        public static String  repeatString(String text,int count){
-            String [] result=new String[count];
-            for (int i=0;i<count;i++){
-                result[i]=text;
-            }
-            return  String.join("",result);
+    public static String reapeatString(String text, int count) {
+        String[] result = new String[count];
+        for (int i=0;i<count;i++){
+            result[i]=text;
+    }
+        return String.join("",result);
+
         }
     }

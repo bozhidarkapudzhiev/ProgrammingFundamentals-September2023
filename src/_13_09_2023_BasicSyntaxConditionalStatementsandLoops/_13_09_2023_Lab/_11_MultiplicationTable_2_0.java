@@ -7,16 +7,13 @@ public class _11_MultiplicationTable_2_0 {
         Scanner scanner = new Scanner(System.in);
         int first=Integer.parseInt(scanner.nextLine());
         int second=Integer.parseInt(scanner.nextLine());
-        if (second<10){
-            for (int i=first;i<=10;i++){
-                for (int j=second;j<=10;j++){
-                    System.out.printf("%d X %d = %d%n",i,j,(i*j));
-                }
-                break;
+       if (second<=10){
+           for (int i = second; i <=10; i++) {
+               System.out.printf("%d X %d = %d%n",first,i,(first*i));
+           }
+       }else {
+           System.out.printf("%d X %d = %d%n",first,second,(first*second));
+       }
 
-            }
-        }else {
-            System.out.printf("%d X %d = %d%n",first,second,(first*second));
-        }
     }
 }

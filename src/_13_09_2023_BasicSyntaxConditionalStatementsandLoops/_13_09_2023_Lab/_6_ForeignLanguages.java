@@ -5,21 +5,21 @@ import java.util.Scanner;
 public class _6_ForeignLanguages {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-       String country=scanner.nextLine();
-       switch (country){
-           case "USA":
-           case "England":
-               System.out.println("English");
-               break;
-           case "Spain":
-           case "Argentina":
-           case"Mexico":
-               System.out.println("Spanish");
-               break;
-           default:
-               System.out.println("unknown");
-               break;
-
-       }
-    }
+        String country=scanner.nextLine();
+        String language="";
+        switch (country){
+            case "England":
+            case "USA":
+                language="English";
+                break;
+            case "Spain":
+            case "Argentina":
+            case "Mexico":
+                language="Spanish";
+                break;
+            default:
+                language="unknown";
+        }
+        System.out.println(language);
+   }
 }

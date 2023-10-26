@@ -1,43 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ff11cf8-055a-4552-b7a4-9fdc5c16979a" name="Changes" comment="committed 07/10/23">
+    <list default="true" id="7ff11cf8-055a-4552-b7a4-9fdc5c16979a" name="Changes" comment="committed 26/10/23">
+      <change afterPath="$PROJECT_DIR$/src/MidExample/_17_10_2023/_1_ComputerStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MidExample/_17_10_2023/_2_MuOnline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MidExample/_17_10_2023/_3_MovingTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MidExample/_18_10_2023/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MidExample/_18_10_2023/_1_GuineaPig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MidExample/_18_10_2023/_2_ShoppingList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MidExample/_18_10_2023/_3_Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_04_10_2023_Mathods/Exercise/_10_MultiplyEvensByOdds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_04_10_2023_Mathods/Exercise/_4_Calculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_04_10_2023_Mathods/Exercise/_5_Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_04_10_2023_Mathods/Exercise/_6_CalculateRectangleArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_04_10_2023_Mathods/Exercise/_9_GreaterOfTwoValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_04_10_2023_Mathods/Task/_10_TopNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_04_10_2023_Mathods/Task/_7_NxNMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_11_10_2023_List/Exercise/_10_SoftUniCoursePlanning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_11_10_2023_List/Exercise/_1_Train.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_11_10_2023_List/Exercise/_2_ChangeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_11_10_2023_List/Exercise/_4_ListOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_11_10_2023_List/Exercise/_9_PokemonDontGo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_11_10_2023_List/Lab/Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_11_10_2023_List/Lab/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_11_10_2023_List/Lab/_1_SumAdjacentEqualNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_11_10_2023_List/Lab/_2_GaussTrick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_11_10_2023_List/Lab/_3_MergingLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_11_10_2023_List/Lab/_4_ListManipulationBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_11_10_2023_List/Lab/_6_ListОfProducts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_11_10_2023_List/Lab/_7_RemoveNegativeAndReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_22_10_2023_RegularMidExam/_1_Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_22_10_2023_RegularMidExam/_2_Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_22_10_2023_RegularMidExam/_3_Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/MainStudents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/MainStudents_2_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/_1_Dice/Dice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/_1_Dice/mainDice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/_1_RandomizeWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/_2_SumBigNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/_3_BigFactorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/_4_Song/MainSong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/_4_Song/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/_5_Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/_6_Students_2_0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_27_09_2023_Arrays/_29_09_2023_Exersice/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_27_09_2023_Arrays/_29_09_2023_Exersice/_5_TopIntegers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_04_10_2023_Mathods/Exercise/ExerciseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04_10_2023_Mathods/Exercise/ExerciseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_04_10_2023_Mathods/Exercise/_1_SignOfIntegerNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04_10_2023_Mathods/Exercise/_1_SignOfIntegerNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_04_10_2023_Mathods/Exercise/_2_Grades.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04_10_2023_Mathods/Exercise/_2_Grades.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_04_10_2023_Mathods/Exercise/_3_PrintingTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04_10_2023_Mathods/Exercise/_3_PrintingTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_04_10_2023_Mathods/ExerciseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04_10_2023_Mathods/ExerciseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_04_10_2023_Mathods/Exercise/_7_RepeatString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04_10_2023_Mathods/Exercise/_7_RepeatString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_04_10_2023_Mathods/Exercise/_8_MathPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04_10_2023_Mathods/Exercise/_8_MathPower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_10_MultiplicationTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_10_MultiplicationTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_11_MultiplicationTable_2_0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_11_MultiplicationTable_2_0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_12_EvenNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_12_EvenNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_13_RefactorSumOfOddNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_13_RefactorSumOfOddNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_2_Passed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_2_Passed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_3_PassedOrFailed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_3_PassedOrFailed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_4_BackIn30Minutes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_4_BackIn30Minutes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_5_MonthPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_5_MonthPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_6_ForeignLanguages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_6_ForeignLanguages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_7__TheatrePromotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_7__TheatrePromotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_8_DividerBy3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_8_DividerBy3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_9_SumOfOddNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_9_SumOfOddNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_15_09_2023_Exercise/_10_PadawanEquipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_15_09_2023_Exercise/_10_PadawanEquipment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_15_09_2023_Exercise/_1_Ages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_15_09_2023_Exercise/_1_Ages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_15_09_2023_Exercise/_2_Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_15_09_2023_Exercise/_2_Division.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_15_09_2023_Exercise/_3_Vacation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_15_09_2023_Exercise/_3_Vacation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_15_09_2023_Exercise/_4_PrintAndSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_15_09_2023_Exercise/_4_PrintAndSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_15_09_2023_Exercise/_5_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_15_09_2023_Exercise/_5_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_15_09_2023_Exercise/_7_VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_15_09_2023_Exercise/_7_VendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_15_09_2023_Exercise/_8_TriangleOfNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_15_09_2023_Exercise/_8_TriangleOfNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_15_09_2023_Exercise/_9_Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_15_09_2023_Exercise/_9_Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_27_09_2023_Arrays/_27_09_2023_Lab/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_27_09_2023_Arrays/_27_09_2023_Lab/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_27_09_2023_Arrays/_27_09_2023_Lab/_1_DayOfWeek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_27_09_2023_Arrays/_27_09_2023_Lab/_1_DayOfWeek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_27_09_2023_Arrays/_27_09_2023_Lab/_3_SumEvenNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_27_09_2023_Arrays/_27_09_2023_Lab/_3_SumEvenNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_27_09_2023_Arrays/_27_09_2023_Lab/_4_ReverseArrayOfStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_27_09_2023_Arrays/_27_09_2023_Lab/_4_ReverseArrayOfStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_27_09_2023_Arrays/_27_09_2023_Lab/_5_EvenAndOddSubtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_27_09_2023_Arrays/_27_09_2023_Lab/_5_EvenAndOddSubtraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_27_09_2023_Arrays/_27_09_2023_Lab/_7_CondenseArraytoNumber1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_27_09_2023_Arrays/_27_09_2023_Lab/_7_CondenseArraytoNumber1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="fb9bc807-dd8d-45e3-8330-0fc8d31b891d" />
+        <option name="url" value="https://github.com/bozhidarkapudzhiev/ProgrammingFundamentals-September2023.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2VIYfPC3Bx8ZKsNkSX7GF9mtlwK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application._3_PrintingTriangle">
-    <configuration name="ExerciseClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_04_10_2023_Mathods.ExerciseClass" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_25_10_2023_ObjectsAndClasses.Lab" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainSong">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_25_10_2023_ObjectsAndClasses.Lab.Main" />
       <module name="ProgrammingFundamentals-September2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_04_10_2023_Mathods.*" />
+          <option name="PATTERN" value="_25_10_2023_ObjectsAndClasses.Lab._1_Dice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -45,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_1_SignOfIntegerNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_04_10_2023_Mathods.Exercise._1_SignOfIntegerNumbers" />
+    <configuration name="MainSong (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_25_10_2023_ObjectsAndClasses.Lab._4_Song.MainSong" />
       <module name="ProgrammingFundamentals-September2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_04_10_2023_Mathods.Exercise.*" />
+          <option name="PATTERN" value="_25_10_2023_ObjectsAndClasses.Lab._4_Song.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2_Grades" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_04_10_2023_Mathods.Exercise._2_Grades" />
+    <configuration name="MainSong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_25_10_2023_ObjectsAndClasses.Lab._4_Song.MainSong" />
       <module name="ProgrammingFundamentals-September2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_04_10_2023_Mathods.Exercise.*" />
+          <option name="PATTERN" value="_25_10_2023_ObjectsAndClasses.Lab._4_Song.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +180,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_3_PrintingTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_04_10_2023_Mathods.Exercise._3_PrintingTriangle" />
+    <configuration name="_2_SumBigNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_25_10_2023_ObjectsAndClasses.Lab._2_SumBigNumbers" />
       <module name="ProgrammingFundamentals-September2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_04_10_2023_Mathods.Exercise.*" />
+          <option name="PATTERN" value="_25_10_2023_ObjectsAndClasses.Lab._1_Dice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mainDice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_25_10_2023_ObjectsAndClasses.Lab._1_Dice.mainDice" />
+      <module name="ProgrammingFundamentals-September2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_25_10_2023_ObjectsAndClasses.Lab._1_Dice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,10 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._3_PrintingTriangle" />
-        <item itemvalue="Application._2_Grades" />
-        <item itemvalue="Application._1_SignOfIntegerNumbers" />
-        <item itemvalue="Application.ExerciseClass" />
+        <item itemvalue="Application.MainSong" />
+        <item itemvalue="Application.MainSong (1)" />
+        <item itemvalue="Application.mainDice" />
+        <item itemvalue="Application._2_SumBigNumbers" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -126,17 +249,332 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="committed 12/09/23" />
     <MESSAGE value="committed 07/10/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="committed 07/10/23" />
+    <MESSAGE value="committed 26/10/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="committed 26/10/23" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_04_10_2023_Mathods/Task/_10_TopNumber.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/_04_10_2023_Mathods/Exercise/_3_PrintingTriangle.java</url>
           <line>17</line>
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_04_10_2023_Mathods/Exercise/_7_RepeatString.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_04_10_2023_Mathods/Exercise/_9_GreaterOfTwoValue.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_04_10_2023_Mathods/Exercise/_9_GreaterOfTwoValue.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_04_10_2023_Mathods/Exercise/_10_MultiplyEvensByOdds.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_04_10_2023_Mathods/Exercise/_10_MultiplyEvensByOdds.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_11_10_2023_List/Lab/Main.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_11_10_2023_List/Lab/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_11_10_2023_List/Lab/Main.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_11_10_2023_List/Lab/_1_SumAdjacentEqualNumbers.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_11_10_2023_List/Lab/_3_MergingLists.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_11_10_2023_List/Exercise/_2_ChangeList.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_11_10_2023_List/Exercise/_1_Train.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_11_10_2023_List/Exercise/_9_PokemonDontGo.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_11_10_2023_List/Lab/_1_SumAdjacentEqualNumbers.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_11_10_2023_List/Lab/_4_ListManipulationBasics.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_5_MonthPrinter.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_7__TheatrePromotion.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MidExample/_18_10_2023/_1_GuineaPig.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MidExample/_18_10_2023/_2_ShoppingList.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MidExample/_18_10_2023/Example.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MidExample/_18_10_2023/_1_GuineaPig.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MidExample/_18_10_2023/Example.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MidExample/_18_10_2023/_2_ShoppingList.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MidExample/_18_10_2023/Example.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MidExample/_18_10_2023/Example.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_27_09_2023_Arrays/_27_09_2023_Lab/_3_SumEvenNumbers.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_27_09_2023_Arrays/_27_09_2023_Lab/Example.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_27_09_2023_Arrays/_27_09_2023_Lab/Example.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_27_09_2023_Arrays/_27_09_2023_Lab/_7_CondenseArraytoNumber1.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_27_09_2023_Arrays/_29_09_2023_Exersice/_1_Train.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_27_09_2023_Arrays/_29_09_2023_Exersice/Example.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_27_09_2023_Arrays/_29_09_2023_Exersice/Example.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_22_10_2023_RegularMidExam/_3_Task.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_22_10_2023_RegularMidExam/_2_Task.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_22_10_2023_RegularMidExam/_1_Task.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_4_BackIn30Minutes.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_6_ForeignLanguages.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_8_DividerBy3.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_9_SumOfOddNumbers.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_10_MultiplicationTable.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_13_09_2023_Lab/_12_EvenNumber.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_15_09_2023_Exercise/_2_Division.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_15_09_2023_Exercise/_3_Vacation.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_15_09_2023_Exercise/_4_PrintAndSum.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_15_09_2023_Exercise/_5_Login.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_15_09_2023_Exercise/_7_VendingMachine.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_15_09_2023_Exercise/_7_VendingMachine.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_15_09_2023_Exercise/_9_Orders.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_15_09_2023_Exercise/_10_PadawanEquipment.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_15_09_2023_Exercise/_10_PadawanEquipment.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/_1_RandomizeWords.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/_4_Song/MainSong.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/_04_10_2023_Mathods/Task/_10_TopNumber.java</url>
+          <line>23</line>
+          <properties class="_04_10_2023_Mathods.Task._10_TopNumber" method="checkSumDigitsInDivisibleBy8">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/_04_10_2023_Mathods/Exercise/_9_GreaterOfTwoValue.java</url>
+          <line>24</line>
+          <properties class="_04_10_2023_Mathods.Exercise._9_GreaterOfTwoValue">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/src/_13_09_2023_BasicSyntaxConditionalStatementsandLoops/_15_09_2023_Exercise/_10_PadawanEquipment.java" line="23">
+        <watch expression="allPrice" />
+      </inline-watch>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ProgrammingFundamentals_September2023$_9_SumOfOddNumbers.ic" NAME="_9_SumOfOddNumbers Coverage Results" MODIFIED="1698067341086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>_13_09_2023_BasicSyntaxConditionalStatementsandLoops._13_09_2023_Lab.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ProgrammingFundamentals_September2023$Example.ic" NAME="Example Coverage Results" MODIFIED="1697873911357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>_27_09_2023_Arrays._29_09_2023_Exersice.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ProgrammingFundamentals_September2023$_5_MonthPrinter.ic" NAME="_5_MonthPrinter Coverage Results" MODIFIED="1697988497267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>_13_09_2023_BasicSyntaxConditionalStatementsandLoops._13_09_2023_Lab.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ProgrammingFundamentals_September2023$_10_PadawanEquipment.ic" NAME="_10_PadawanEquipment Coverage Results" MODIFIED="1698262259246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>_13_09_2023_BasicSyntaxConditionalStatementsandLoops._15_09_2023_Exercise.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ProgrammingFundamentals_September2023$_3_MovingTarget.ic" NAME="_3_MovingTarget Coverage Results" MODIFIED="1697564169268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>MidExample._17_10_2023.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ProgrammingFundamentals_September2023$_2_Division.ic" NAME="_2_Division Coverage Results" MODIFIED="1698069866696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>_13_09_2023_BasicSyntaxConditionalStatementsandLoops._15_09_2023_Exercise.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ProgrammingFundamentals_September2023$_6_CalculateRectangleArea.ic" NAME="_6_CalculateRectangleArea Coverage Results" MODIFIED="1696782240221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>_04_10_2023_Mathods.Exercise.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ProgrammingFundamentals_September2023$_1_Train.ic" NAME="_1_Train Coverage Results" MODIFIED="1697826448633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>_27_09_2023_Arrays._29_09_2023_Exersice.*</FILTER>
+    </SUITE>
   </component>
 </project>

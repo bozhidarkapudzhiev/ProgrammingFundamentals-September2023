@@ -5,18 +5,19 @@ import java.util.Scanner;
 
 public class _3_SumEvenNumbers {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int sum=0;
-        int[] number = Arrays.stream(scanner.nextLine().split(" "))
-                .mapToInt(e->Integer.parseInt(e))
-                .toArray(); ;
-             for (int i =0; i < number.length; i++) {
-                if (number[i]%2==0){
-                    sum+=number[i];
-                }
-        }
-            System.out.println(sum);
-            
-        }
+        Scanner scanner=new Scanner(System.in);
+        int[]numbers=Arrays.stream(scanner.nextLine()
+                        .split(" "))
+                .mapToInt(Integer::parseInt)
+                .toArray();
+        int event=0;
+        for (int i=0;i<numbers.length;i++){
 
+            if (numbers[i]%2==0){
+                event+=numbers[i];
+            }
+        }
+        System.out.println(event);
     }
+
+}

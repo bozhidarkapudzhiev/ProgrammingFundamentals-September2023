@@ -10,10 +10,11 @@ public class _8_MathPower {
         double power=Double.parseDouble(scanner.nextLine());
         DecimalFormat df=new DecimalFormat("0.####");
         System.out.println(df.format(pow(number,power)));
+
     }
-    public static double pow(double number,double power){
-        double result=1;
-        for (int i=0;i<power;i++){
+    public static  double pow(double number,double power){
+        double result =1;
+        for (int i = 0; i < power; i++) {
             result*=number;
         }
         return result;

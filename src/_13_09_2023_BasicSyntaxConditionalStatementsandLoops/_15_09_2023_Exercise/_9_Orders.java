@@ -5,17 +5,17 @@ import java.util.Scanner;
 public class _9_Orders {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int numberOfOrders=Integer.parseInt(scanner.nextLine());
-        double allPrice=0;
-        double total=0;
-        for (int i=1;i<=numberOfOrders;i++){
+        int numberОfОrders=Integer.parseInt(scanner.nextLine());
+        double totalPrice=0;
+        for (int i=1;i<=numberОfОrders;i++){
             double pricePerCapsule=Double.parseDouble(scanner.nextLine());
-            int dayInMount=Integer.parseInt(scanner.nextLine());
-            int capsuleCount=Integer.parseInt(scanner.nextLine());
-            allPrice=(dayInMount*capsuleCount)*pricePerCapsule;
-            System.out.printf("The price for the coffee is: $%.2f\n",allPrice);
-            total+=allPrice;
+            int days=Integer.parseInt(scanner.nextLine());
+            int numberOfCapsules=Integer.parseInt(scanner.nextLine());
+
+            double sum=pricePerCapsule*days*numberOfCapsules;
+            totalPrice+=sum;
+            System.out.printf("The price for the coffee is: $%.2f\n",sum);
         }
-        System.out.printf("Total: $%.2f",total);
+        System.out.printf("Total: $%.2f",totalPrice);
     }
 }

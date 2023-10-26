@@ -5,70 +5,53 @@ import java.util.Scanner;
 public class _7_VendingMachine {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String command = scanner.nextLine();
-        double sumMoney = 0;
-
-        while (!command.equals("Start")) {
-            double money = Double.parseDouble(command);
-            if (money == 0.1 || money == 0.2 || money == 0.5 || money == 1 || money == 2) {
-                sumMoney += money;
-            } else {
-                System.out.printf("Cannot accept %.2f\n", money);
+        String command=scanner.nextLine();
+        double sum=0;
+        while (!command.equals("Start")){
+          double money=Double.parseDouble(command);//конвертиране на  String към int
+      if (money==0.1 || money==0.2 || money==0.5 || money==1.00 || money==2.0){
+                sum+=money;
+            }else {
+                System.out.printf("Cannot accept %.2f\n",money);
             }
-            command = scanner.nextLine();
+            command=scanner.nextLine();
         }
-        double productPrice = 0;
-        String product = scanner.nextLine();
-        String nameProduct = "";
-        while (!product.equals("End")) {
-            boolean isProduct = product.equals("Nuts") || product.equals("Water") || product.equals("Crisps") || product.equals("Soda") || product.equals("Coke");
-            switch (product) {
+        String product=scanner.nextLine();
+        while (!product.equals("End")){
+            double price=0.0;
+            switch (product){
                 case "Nuts":
-                    nameProduct = "Nuts";
-                    productPrice = 2.0;
+                    price=2.0;
                     break;
                 case "Water":
-                    nameProduct = "Water";
-                    productPrice = 0.70;
+                    price=0.70;
                     break;
                 case "Crisps":
-                    nameProduct = "Crisps";
-                    productPrice = 1.50;
+                    price=1.50;
                     break;
                 case "Soda":
-                    nameProduct = "Soda";
-                    productPrice = 0.80;
+                    price=0.80;
                     break;
                 case "Coke":
-                    nameProduct = "Coke";
-                    productPrice = 1.0;
+                    price=1.00;
                     break;
                 default:
                     System.out.println("Invalid product");
-                    break;
+                    product=scanner.nextLine();
+                    continue;
+                    /*Ключовата continue дума се използва за прекратяване на текущата итерация в
+                    for цикъл (или while цикъл) и продължава към следващата итерация.*/
             }
-            if (isProduct) {
-                if (sumMoney >= productPrice) {
-                    sumMoney = sumMoney - productPrice;
-                    System.out.printf("Purchased %s\n", nameProduct);
-                    product = scanner.nextLine();
-                } else if (sumMoney < productPrice) {
-                    if (product.equals("End")) {
-                        System.out.printf("Change: %.2f", sumMoney);
-                        break;
-                    }
-                    System.out.println("Sorry, not enough money");
-                    product = scanner.nextLine();
-
-                } else {
-                    product = scanner.nextLine();
-
-                }
-            }else {
+            if (price<=sum){
+                System.out.printf("Purchased %s\n",product);
+                sum-=price;
+                product=scanner.nextLine();
+            }else if (price>sum && sum>0){
+                System.out.println("Sorry, not enough money");
                 product=scanner.nextLine();
             }
-
         }
-        System.out.printf("Change: %.2f", sumMoney);
+        System.out.printf("Change: %.2f\n",sum);
+
     }
 }
