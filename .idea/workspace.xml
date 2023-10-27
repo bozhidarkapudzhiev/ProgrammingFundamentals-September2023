@@ -5,19 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ff11cf8-055a-4552-b7a4-9fdc5c16979a" name="Changes" comment="committed 26/10/23">
-      <change afterPath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/_5_Students/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/_5_Students/Students.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/_6_Student_2_0/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/_6_Student_2_0/Students.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_6_Student_2/0/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_6_Student_2/0/Main.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_6_Student_2/0/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Example/ExerciseTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Example/_4_Songs/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Example/_4_Songs/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/Examples/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/Examples/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/_3_OpinionPoll/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/_3_OpinionPoll/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_27_09_2023_Arrays/_27_09_2023_Lab/Exercise/ExerciseTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_27_09_2023_Arrays/_27_09_2023_Lab/Exercise/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/MainStudents.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/MainStudents_2_.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/_4_Song/MainSong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/_4_Song/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/_5_Students.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/_6_Students_2_0.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgrammingFundamentals-September2023.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProgrammingFundamentals-September2023.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/_4_Song/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/_4_Song/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_27_09_2023_Arrays/_27_09_2023_Lab/_1_DayOfWeek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_27_09_2023_Arrays/_27_09_2023_Lab/_1_DayOfWeek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_27_09_2023_Arrays/_27_09_2023_Lab/_3_SumEvenNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_27_09_2023_Arrays/_27_09_2023_Lab/_3_SumEvenNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -58,18 +62,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/bozhi/Downloads/ProgrammingFundamentals-September2023/src/_25_10_2023_ObjectsAndClasses/Lab/_6_Student_2_0",
-    "settings.editor.selected.configurable": "editing.templates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bozhi/Downloads/ProgrammingFundamentals-September2023/src/_25_10_2023_ObjectsAndClasses/Lab/_6_Student_2_0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\bozhi\Downloads\ProgrammingFundamentals-September2023\src\_25_10_2023_ObjectsAndClasses\Lab\_6_Student_2_0" />
@@ -80,13 +84,13 @@
       <recent name="_25_10_2023_ObjectsAndClasses.Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._25_10_2023_ObjectsAndClasses.Lab._6_Student_2_0.Main">
+  <component name="RunManager" selected="Application._25_10_2023_ObjectsAndClasses._3_OpinionPoll.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_25_10_2023_ObjectsAndClasses.Lab.Main" />
+      <option name="MAIN_CLASS_NAME" value="_25_10_2023_ObjectsAndClasses.Example.Main" />
       <module name="ProgrammingFundamentals-September2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_25_10_2023_ObjectsAndClasses.Lab._1_Dice.*" />
+          <option name="PATTERN" value="_25_10_2023_ObjectsAndClasses.Example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +98,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainSong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_25_10_2023_ObjectsAndClasses.Lab._4_Song.MainSong" />
+    <configuration name="_1_DayOfWeek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_27_09_2023_Arrays._27_09_2023_Lab._1_DayOfWeek" />
       <module name="ProgrammingFundamentals-September2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_25_10_2023_ObjectsAndClasses.Lab._4_Song.*" />
+          <option name="PATTERN" value="_27_09_2023_Arrays._27_09_2023_Lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_25_10_2023_ObjectsAndClasses.Example._4_Songs.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_25_10_2023_ObjectsAndClasses.Example._4_Songs.Main" />
+      <module name="ProgrammingFundamentals-September2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_25_10_2023_ObjectsAndClasses.Example._4_Songs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_25_10_2023_ObjectsAndClasses.Lab._4_Song.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_25_10_2023_ObjectsAndClasses.Lab._4_Song.Main" />
+    <configuration name="_25_10_2023_ObjectsAndClasses._3_OpinionPoll.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_25_10_2023_ObjectsAndClasses._3_OpinionPoll.Main" />
       <module name="ProgrammingFundamentals-September2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_25_10_2023_ObjectsAndClasses.Lab._4_Song.*" />
+          <option name="PATTERN" value="_25_10_2023_ObjectsAndClasses._3_OpinionPoll.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,38 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_25_10_2023_ObjectsAndClasses.Lab._5_Students.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_25_10_2023_ObjectsAndClasses.Lab._5_Students.Main" />
+    <configuration name="_3_SumEvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_27_09_2023_Arrays._27_09_2023_Lab._3_SumEvenNumbers" />
       <module name="ProgrammingFundamentals-September2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_25_10_2023_ObjectsAndClasses.Lab._5_Students.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_25_10_2023_ObjectsAndClasses.Lab._6_Student_2_0.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_25_10_2023_ObjectsAndClasses.Lab._6_Student_2_0.Main" />
-      <module name="ProgrammingFundamentals-September2023" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_25_10_2023_ObjectsAndClasses.Lab._6_Student_2_0.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="mainDice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_25_10_2023_ObjectsAndClasses.Lab._1_Dice.mainDice" />
-      <module name="ProgrammingFundamentals-September2023" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_25_10_2023_ObjectsAndClasses.Lab._1_Dice.*" />
+          <option name="PATTERN" value="_27_09_2023_Arrays._27_09_2023_Lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._25_10_2023_ObjectsAndClasses.Lab._6_Student_2_0.Main" />
-        <item itemvalue="Application._25_10_2023_ObjectsAndClasses.Lab._5_Students.Main" />
-        <item itemvalue="Application._25_10_2023_ObjectsAndClasses.Lab._4_Song.Main" />
-        <item itemvalue="Application._25_10_2023_ObjectsAndClasses.Lab._4_Song.Main" />
-        <item itemvalue="Application.mainDice" />
+        <item itemvalue="Application._25_10_2023_ObjectsAndClasses._3_OpinionPoll.Main" />
+        <item itemvalue="Application._25_10_2023_ObjectsAndClasses.Example._4_Songs.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application._3_SumEvenNumbers" />
+        <item itemvalue="Application._1_DayOfWeek" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698334926861</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="committed 26/10/23">
+      <created>1698341214961</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698341214961</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -365,7 +363,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/_27_09_2023_Arrays/_27_09_2023_Lab/_3_SumEvenNumbers.java</url>
-          <line>13</line>
+          <line>9</line>
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -490,7 +488,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/_1_RandomizeWords.java</url>
-          <line>20</line>
+          <line>7</line>
           <option name="timeStamp" value="135" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -502,6 +500,51 @@
           <url>file://$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/_6_Student_2_0/Main.java</url>
           <line>47</line>
           <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/Examples/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/Examples/Main.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/Examples/Main.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_25_10_2023_ObjectsAndClasses/Lab/Examples/Main.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_27_09_2023_Arrays/_27_09_2023_Lab/Exercise/Main.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_27_09_2023_Arrays/_27_09_2023_Lab/Exercise/Main.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_27_09_2023_Arrays/_27_09_2023_Lab/Exercise/Main.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_27_09_2023_Arrays/_27_09_2023_Lab/Exercise/Main.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_27_09_2023_Arrays/_27_09_2023_Lab/Exercise/Main.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="151" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/_04_10_2023_Mathods/Task/_10_TopNumber.java</url>

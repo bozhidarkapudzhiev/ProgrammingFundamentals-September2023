@@ -20,7 +20,9 @@ public class Main {
         }
         String filter=scanner.nextLine();
        boolean shouldFilter=!filter.equals("all");
-
+        //Method's filter Song
+        /*    String filter=scanner.nextLine();
+        filterSong(songs,filter);*/
         for (Song song :songs){
             if (!shouldFilter){
                 System.out.println(song.getName());
@@ -31,4 +33,16 @@ public class Main {
 
 
     }
+    //Method's filter Song
+  /*  public static void filterSong(List<_25_10_2023_ObjectsAndClasses.Lab.Examples.Song>songs, String filter){
+        boolean shouldFilter=!filter.equals("all");
+
+        for (_25_10_2023_ObjectsAndClasses.Lab.Examples.Song song:songs) {
+            if (!shouldFilter){
+                System.out.println(song.getName());
+            }else if (song.getType().equals(filter)){
+                System.out.println(song.getName());
+            }
+
+        }*/
 }

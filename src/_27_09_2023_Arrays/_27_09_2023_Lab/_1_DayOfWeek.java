@@ -5,15 +5,17 @@ import java.util.Scanner;
 
 public class _1_DayOfWeek {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int days=Integer.parseInt(scanner.nextLine());
-        String[] dayOfWeek={"Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"};
-        if (days>=1 && days<=7){
-            System.out.println(dayOfWeek[days-1]);
+        Scanner scanner =new Scanner(System.in);
+        int day=Integer.parseInt(scanner.nextLine());// прочитаме цяло число
+        String[] days={"Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"};
+        //създаваме масив от String  с дните от седмицата
+        if (day>=1&&day<=7){           // проверяваме дали дали прочетеното число е между 1 и 7
+            System.out.println(days[day-1]);//ако  е между  1 и 7 изваждаме  -1  и извеждаме в  конзолата
         }else {
-            System.out.println("Invalid day!");
+            System.out.println("Invalid day!");//в противен случай печаме съобщение "Invalid day!"
         }
 
-    }
 
+
+    }
 }
