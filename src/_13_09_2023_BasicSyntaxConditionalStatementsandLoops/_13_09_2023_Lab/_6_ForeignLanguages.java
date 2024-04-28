@@ -6,20 +6,20 @@ public class _6_ForeignLanguages {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String country=scanner.nextLine();
-        String language="";
+        String speakLanguage="";
         switch (country){
             case "England":
             case "USA":
-                language="English";
+                speakLanguage="English";
                 break;
             case "Spain":
             case "Argentina":
             case "Mexico":
-                language="Spanish";
+                speakLanguage="Spanish";
                 break;
             default:
-                language="unknown";
+                speakLanguage="unknown";
         }
-        System.out.println(language);
+        System.out.println(speakLanguage);
    }
 }
