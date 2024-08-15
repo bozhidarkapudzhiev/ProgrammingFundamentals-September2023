@@ -1,50 +1,41 @@
 package _11_10_2023_List.Lab;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
+import java.util.stream.Collectors;
 
 public class _3_MergingLists {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        /*3 5 2 43 12 3 54 10 23
-         *76 5 34 2 4 12
-         * firstList
-         * secondList
-         * */
+        List<Integer> listFirst = Arrays.stream(scanner.nextLine().split("\\s+"))
+                .map(Integer::parseInt).collect(Collectors.toList());
+        List<Integer> listSecond = Arrays.stream(scanner.nextLine().split("\\s+"))
+                .map(Integer::parseInt).collect(Collectors.toList());
+        mergingList(listFirst, listSecond);
+    }
 
-        // firstIndex
-        // secondIndex
-
-        String [] firstSeq=scanner.nextLine().split(" ");
-        String [] secondSeq=scanner.nextLine().split(" ");
-
-        List<String>result=new ArrayList<>();
-        int firstSeqIdx=0;
-        int secondSeqIdx=0;
-        boolean isFirstSeqTrue=true;
-
-        while(firstSeqIdx>=0 && firstSeqIdx<firstSeq.length &&secondSeqIdx>=0 && secondSeqIdx<secondSeq.length){
-            if (isFirstSeqTrue){
-                result.add(firstSeq[firstSeqIdx]);
-                firstSeqIdx+=1;
-                isFirstSeqTrue=false;
-            }else {
-                result.add(secondSeq[secondSeqIdx]);
-                secondSeqIdx+=1;
-                isFirstSeqTrue=true;
+    public static void mergingList(List<Integer> first, List<Integer> second) {
+        List<Integer> result = new ArrayList<>();
+        while (!first.isEmpty()&& !second.isEmpty()){
+            result.add(first.get(0));
+            result.add(second.get(0));
+            first.remove(0);
+            second.remove(0);
+        }if (!first.isEmpty()){
+            while (!first.isEmpty()){
+                result.add(first.get(0));
+                first.remove(0);
+            }
+        }else if (!second.isEmpty()){
+            while (!second.isEmpty()){
+                result.add(second.get(0));
+                second.remove(0);
             }
         }
-        for (int i=firstSeqIdx;i<firstSeq.length;i++){
-            result.add(firstSeq[i]);
+        for (int i = 0; i < result.size(); i++) {
+            System.out.print(result.get(i)+" ");
         }
-        for (int i=secondSeqIdx;i<secondSeq.length;i++){
-            result.add(secondSeq[i]);
-        }
-        System.out.println(String.join(
-                " ",
-                result.stream()
-                .map(e -> String.valueOf(e))
-                .toArray(String[]:: new)));
     }
 }

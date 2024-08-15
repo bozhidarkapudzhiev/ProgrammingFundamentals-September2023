@@ -6,32 +6,42 @@ public class _4_Calculation {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String command=scanner.nextLine();
-        int n1=Integer.parseInt(scanner.nextLine());
-        int n2=Integer.parseInt(scanner.nextLine());
+        int firstN=Integer.parseInt(scanner.nextLine());
+        int secondN=Integer.parseInt(scanner.nextLine());
         switch (command){
             case "add":
-                System.out.println(add(n1,n2));
+                add(firstN,secondN);
                 break;
             case "multiply":
-                System.out.println(multiply(n1,n2));
+                multiply(firstN,secondN);
                 break;
             case "subtract":
-                System.out.println(subtract(n1,n2));
+                subtract(firstN,secondN);
                 break;
             case "divide":
-                System.out.println(divide(n1,n2));
+                divide(firstN,secondN);
+                break;
         }
     }
-   public static int add(int n1,int n2){
-        return n1+n2;
-   }
-   public static int multiply(int n1,int n2){
-        return n1*n2;
-   }
-   public static int subtract(int n1,int n2){
-        return n1-n2;
+    public static int add(int first, int second){
+        int result=first+second;
+        System.out.println(result);
+        return result;
     }
-    public static int divide(int n1,int n2){
-        return n1/n2;
+    public static  int subtract(int first,int second){
+        int result=first-second;
+        System.out.println(result);
+        return result;
+    }
+    public static int multiply(int first, int second){
+        int result= first*second;
+        System.out.println(result);
+        return result;
+    }
+    public static int divide(int first,int second){
+        int result=first/second;
+        System.out.println(result);
+        return result;
+
     }
 }

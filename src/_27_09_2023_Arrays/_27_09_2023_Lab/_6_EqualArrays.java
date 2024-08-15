@@ -6,24 +6,29 @@ import java.util.Scanner;
 public class _6_EqualArrays {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int[] firstSeq = Arrays.stream(scanner.nextLine().split(" "))
-                .mapToInt(e -> Integer.parseInt(e))
-                .toArray();
-        int[] secondSeq = Arrays.stream(scanner.nextLine().split(" "))
-                .mapToInt(e -> Integer.parseInt(e))
-                .toArray();
-        int sum = 0;
-        boolean identical=true;
-        for (int i = 0; i < firstSeq.length; i++) {
-            sum+=firstSeq[i];
-            if (firstSeq[i]!=secondSeq[i]){
-                System.out.printf("Arrays are not identical. Found difference at %d index.",i);
-                identical=false;
+        /**Arrays are identical. Sum: 60*/
+
+        int[] firstArrays = Arrays.stream(scanner.nextLine().split("\\s+")).mapToInt(Integer::parseInt).toArray();
+        int[] secondArrays = Arrays.stream(scanner.nextLine().split("\\s+")).mapToInt(Integer::parseInt).toArray();
+       boolean isIdentity=true;
+       int sum=0;
+       int index=0;
+        for (int i = 0; i < firstArrays.length; i++) {
+            if (firstArrays[i]!=secondArrays[i]){
+                isIdentity=false;
                 break;
+            }else {
+                sum+=firstArrays[i];
+                isIdentity=true;
+                index++;
             }
         }
-        if (identical){
-            System.out.printf("Arrays are identical. Sum: %d%n",sum);
+        if (isIdentity){
+            System.out.printf("Arrays are identical. Sum: %d\n",sum);
+        }else{
+            System.out.printf("Arrays are not identical. Found difference at %d index.\n",index);
         }
     }
 }
+
+

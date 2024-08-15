@@ -5,19 +5,22 @@ import java.util.Scanner;
 public class _2_Division {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-       int n=Integer.parseInt(scanner.nextLine());
-       if (n%10==0){
-           System.out.println("The number is divisible by 10");
-       }else if (n%7==0){
-           System.out.println("The number is divisible by 7");
-       } else if (n%6==0) {
-           System.out.println("The number is divisible by 6");
-       }else if (n%3==0){
-           System.out.println("The number is divisible by 3");
-       }else if(n%2==0){
-           System.out.println("The number is divisible by 2");
-       }else{
-           System.out.println("Not divisible");
-       }
+        int number = Integer.parseInt(scanner.nextLine());
+        String text = "The number is divisible by ";
+
+        /*divisible : 2, 3, 6, 7, 10.*/
+        if (number % 10 == 0) {
+            System.out.println(text + 10);
+        } else if (number % 7 == 0) {
+            System.out.println(text + 7);
+        } else if (number % 6 == 0) {
+            System.out.println(text + 6);
+        } else if (number % 3 == 0) {
+            System.out.println(text + 3);
+        } else if (number % 2 == 0) {
+            System.out.println(text + 2);
+        }else {
+            System.out.println("Not divisible");
+        }
     }
 }

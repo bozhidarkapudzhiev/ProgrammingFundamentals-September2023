@@ -1,51 +1,36 @@
 package _25_10_2023_ObjectsAndClasses.Lab._5_Students;
 
 public class Students {
-    private  String firstName;
+    private String  firstName;
     private String lastName;
     private int age;
-    private String hometown;
+    private String town;
 
-    public Students(String firstName, String lastName, int age, String hometown) {
+    public Students(String firstName, String lastName, int age, String town) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
-        this.hometown = hometown;
+        this.town = town;
     }
 
     public String getFirstName() {
-        return this.firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+        return firstName;
     }
 
     public String getLastName() {
-        return this.lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+        return lastName;
     }
 
     public int getAge() {
-        return this.age;
+        return age;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public String getTown() {
+        return town;
     }
 
-    public String getHometown() {
-        return this.hometown;
-    }
-
-    public void setHometown(String hometown) {
-        this.hometown = hometown;
-    }
-
-    public String getDetails(){
-        return  String.format("%s %s is %d years old",firstName,lastName,age);
+    @Override
+    public String toString() {
+        return String.format("%s %s is %d years old",getFirstName(),getLastName(),getAge());
     }
 }

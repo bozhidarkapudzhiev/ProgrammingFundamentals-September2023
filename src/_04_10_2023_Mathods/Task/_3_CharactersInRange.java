@@ -5,25 +5,29 @@ import java.util.Scanner;
 public class _3_CharactersInRange {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        char firstSymbol=scanner.nextLine().charAt(0);//"a".chartAt(0)->'a'
-        char secondSymbol=scanner.nextLine().charAt(0);
-        printSymbolsInRange(firstSymbol,secondSymbol);
+        String symbolFirst = scanner.nextLine();
+        String symbolSecond = scanner.nextLine();
+        symbolsPrint(symbolFirst, symbolSecond);
 
     }
 
-    //метод който отпечатва символите в даден диапазон
-    public static void printSymbolsInRange(char firstSymbol,char secondSymbol){
-        //започваме от символа с мо-малкъ аски код
-        if (firstSymbol<secondSymbol){
-            //започваме  от  firstSymbol -> символите в ( firstSymbol;secondSymbol
-            for (char symbol=(char)(firstSymbol+1);symbol<secondSymbol;symbol++){
-                System.out.print(symbol+" ");
-            }
-        }else {//firstSymbol -> secondSymbol
-            //започваме  от  firstSymbol -> символите в ( firstSymbol;secondSymbol
-            for (char symbol=(char) (secondSymbol+1 );symbol<firstSymbol;symbol++){
-                System.out.print(symbol+" ");
-            }
+    public static StringBuilder symbolsPrint(String symbolFirst, String symbolSecond) {
+        int asciiSymFirst = (int) symbolFirst.charAt(0);
+        int asciiSymSecond = (int) symbolSecond.charAt(0);
+        StringBuilder builder = new StringBuilder();
+        if (asciiSymFirst > asciiSymSecond) {
+            int var = (int) asciiSymFirst;
+           asciiSymFirst=asciiSymSecond;
+          asciiSymSecond = var;
         }
+        for (int i = asciiSymFirst + 1; i <= asciiSymSecond - 1; i++) {
+            char symbol = (char) i;
+            builder.append(symbol).append(" ");
+        }
+
+
+        System.out.println(builder);
+        return builder;
+
     }
 }

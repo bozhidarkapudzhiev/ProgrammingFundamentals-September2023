@@ -1,48 +1,30 @@
 package _25_10_2023_ObjectsAndClasses.Lab._4_Song;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        List<Song>songs=new ArrayList<>();//създаване на списък от песни
         int n=Integer.parseInt(scanner.nextLine());
+        List<Song> songList=new ArrayList<>();
+        String lines=scanner.nextLine();
         for (int i = 0; i < n; i++) {
-            String[]songArgs=scanner.nextLine().split("_");
-            String songType=songArgs[0];
-            String name=songArgs[1];
-            String time=songArgs[2];
-
-            Song song=new Song(songType,name,time);
-            songs.add(song);
+        String[] line=lines.split("_");
+            String typeList=line[0];
+            String nameSong=line[1];
+            String durationSong=line[2];
+            Song song=new Song(typeList,nameSong,durationSong);
+            songList.add(song);
+            lines=scanner.nextLine();
         }
-        String filter=scanner.nextLine();
-       boolean shouldFilter=!filter.equals("all");
-        //Method's filter Song
-        /*    String filter=scanner.nextLine();
-        filterSong(songs,filter);*/
-        for (Song song :songs){
-            if (!shouldFilter){
-                System.out.println(song.getName());
-            }else if (song.getTypeList().equals(filter)){
-                System.out.println(song.getName());
+        String sortedList=lines;
+        for (Song song:songList) {
+            if (song.getTypeSong().equals(sortedList)||sortedList.equals("all")){
+                System.out.println(song.getNameSong());
             }
         }
-
-
     }
-    //Method's filter Song
-  /*  public static void filterSong(List<_25_10_2023_ObjectsAndClasses.Lab.Examples.Song>songs, String filter){
-        boolean shouldFilter=!filter.equals("all");
-
-        for (_25_10_2023_ObjectsAndClasses.Lab.Examples.Song song:songs) {
-            if (!shouldFilter){
-                System.out.println(song.getName());
-            }else if (song.getType().equals(filter)){
-                System.out.println(song.getName());
-            }
-
-        }*/
 }

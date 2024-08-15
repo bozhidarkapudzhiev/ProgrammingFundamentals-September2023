@@ -1,40 +1,22 @@
 package _13_09_2023_BasicSyntaxConditionalStatementsandLoops.MoreExercise;
 
-import java.util.Scanner;
+import java.util.*;
+import java.util.stream.Collector;
 
 public class _1_SortNumbers {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int first=0;
-        int second=0;
-        int third=0;
-
-        for (int i=1;i<=3;i++){
-            int n=Integer.parseInt(scanner.nextLine());
-            if (i==1){
-                first=n;
-            } else if (i==2) {
-                if (n>first){
-                    second=first;
-                    first=n;
-                }else {
-                    second=n;
-                }
-            }else {
-                if (n>first){
-                    third=second;
-                    second=first;
-                    first=n;
-                }else if (n>second){
-                    third=second;
-                    second=n;
-                }else {
-                    third=n;
-                }
-            }
-        }
-        System.out.println(first);
-        System.out.println(second);
-        System.out.println(third);
+        int first = Integer.parseInt(scanner.nextLine());
+        int second = Integer.parseInt(scanner.nextLine());
+        int three = Integer.parseInt(scanner.nextLine());
+        List<Integer> list = new ArrayList<>();
+        list.add(first);
+        list.add(second);
+        list.add(three);
+        Collections.sort(list);
+        Collections.reverse(list);
+        list.forEach(System.out::println);
+        System.out.println();
     }
 }
+

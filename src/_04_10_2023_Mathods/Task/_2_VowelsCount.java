@@ -5,21 +5,21 @@ import java.util.Scanner;
 public class _2_VowelsCount {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String text=scanner.nextLine().toLowerCase();
-        //гласни букви:А , а ,Е , е , I , i , O , o , U , u
-        printCountVowels(text);
+        String line=scanner.nextLine();
+        vowelsCount(line);
     }
-    //метод който принтира броя на  гласните букви  в даден  текст
-    public static void printCountVowels(String text){
-        int count=0;//броят на гласните букви
-        //"desislava" -> toCharArray(); -> ['d','e','s','i','s','' a'---
-        for (char letter:text.toCharArray()) {
-            if (letter=='a'||letter=='e'||letter=='i'||letter=='o'||letter=='u'){
+    public static int vowelsCount(String line){
+        int count=0;
+        String[] arrWord=line.split("");
+
+        for (int i=1;i<=line.length();i++){
+            char symbol=line.toLowerCase().charAt(i-1);
+            //a, e, i, o, u, and sometimes y.
+            if (symbol=='a'||symbol=='e'||symbol=='i'||symbol=='o'||symbol=='u'|| symbol=='y'){
                 count++;
             }
         }
-        // обходили сме всички символи -> брой на гласните букви
         System.out.println(count);
-
+        return count;
     }
 }

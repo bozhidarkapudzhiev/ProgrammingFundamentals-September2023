@@ -1,37 +1,26 @@
 package _25_10_2023_ObjectsAndClasses.Lab._4_Song;
 
 public class Song {
-    private String typeList;
-    private String name;
-    private String time;
-
-    public Song(String typeList, String name, String time) {
-        this.typeList = typeList;
-        this.name = name;
-        this.time = time;
+   private String typeSong;
+   private String nameSong;
+   private  String durationSong;
+    public Song(String typeSong, String nameSong, String durationSong) {
+        this.typeSong = typeSong;
+        this.nameSong = nameSong;
+        this.durationSong = durationSong;
+    }
+    public String getTypeSong() {
+        return typeSong;
+    }
+    public String getNameSong() {
+        return nameSong;
     }
 
-    public String getTypeList() {
-        return typeList;
-    }
 
-    public void setTypeList(String typeList) {
-        this.typeList = typeList;
+    public String getDurationSong() {
+        return durationSong;
     }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getTime() {
-        return time;
-    }
-
-    public void setTime(String time) {
-        this.time = time;
+    public String detail(Song song){
+        return String.format("%s %s %s",getTypeSong(),getNameSong(),getDurationSong());
     }
 }

@@ -5,22 +5,21 @@ import java.util.Scanner;
 
 public class _5_EvenAndOddSubtraction{
     public static void main(String[] args) {;
-        Scanner scanner=new Scanner(System.in);
-        int[] n= Arrays.stream(scanner.nextLine()
-                        .split(" "))
-                .mapToInt(Integer::parseInt)
-                .toArray();
-        int even=0;
-        int odd=0;
-        for (int i = 0; i <n.length; i++) {
-            if (n[i]%2==0){
-                even+=n[i];
+        Scanner scanner = new Scanner(System.in);
+        int [] firstArr=Arrays.stream(scanner.nextLine().split("\\s+"))
+                .mapToInt(value -> Integer.parseInt(value)).toArray();
+
+        int sumEven=0;
+        int sumOdd=0;
+        for (int i = 0; i < firstArr.length; i++) {
+            int currentEl=firstArr[i];
+            if (currentEl%2==0){
+                sumEven+=currentEl;
             }else {
-                odd+=n[i];
+                sumOdd+=currentEl;
             }
 
         }
-        int result=even-odd;
-        System.out.println(result);
+        System.out.println(sumEven-sumOdd);
     }
 }

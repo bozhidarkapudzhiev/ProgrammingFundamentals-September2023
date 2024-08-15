@@ -5,28 +5,18 @@ import java.util.Scanner;
 public class _1_SmallestOfThreeNumbers {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int firstNumber=Integer.parseInt(scanner.nextLine());
-        int secondNumber=Integer.parseInt(scanner.nextLine());
-        int thirdNumber=Integer.parseInt(scanner.nextLine());
-
-        printSmallestNumber(firstNumber,secondNumber,thirdNumber);
+        int first=Integer.parseInt(scanner.nextLine());
+        int second=Integer.parseInt(scanner.nextLine());
+        int three=Integer.parseInt(scanner.nextLine());
+        System.out.println(smallestOfThreeNumbers(first,second,three));
     }
-
-    //нов метод
-    //метод който отпечватва  наи-малкото от трите въведени числа
-    public  static  void printSmallestNumber(int n1,int n2, int n3){
-        // първото число е най  малко
-        if(n1<n2 && n1<n3){
-            //първото число е най-малко
-            System.out.println(n1);
-        }else  if (n2<n1 && n2<n3){
-            //второто число е най-малко
-            System.out.println(n2);
+    public static int smallestOfThreeNumbers(int first,int second,int three){
+        if (first<second && first<three){
+            return first;
+        }else if (second<first && second< three){
+            return second;
         }else {
-            //третото число е най-малко
-            System.out.println(n3);
+            return three;
         }
-        // II-ри вариант
-       /// System.out.println(Math.min(Math.min(n1,n2),n3));
     }
 }

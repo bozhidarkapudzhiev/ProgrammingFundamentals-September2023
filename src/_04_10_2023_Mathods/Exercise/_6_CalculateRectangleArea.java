@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class _6_CalculateRectangleArea {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int width=Integer.parseInt(scanner.nextLine());
         int height=Integer.parseInt(scanner.nextLine());
-        System.out.println(calculateArea(width,height));
-
+        int weight=Integer.parseInt(scanner.nextLine());
+        calculateRectancleArea(height,weight);
     }
-    public  static int calculateArea(int width,int height){
-        return width*height;
+    public static int calculateRectancleArea(int height,int weight){
+        int result=height*weight;
+        System.out.println(result);
+        return result;
     }
-
 }

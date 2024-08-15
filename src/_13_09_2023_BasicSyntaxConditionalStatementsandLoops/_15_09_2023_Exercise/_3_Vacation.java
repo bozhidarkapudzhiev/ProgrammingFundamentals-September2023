@@ -5,80 +5,57 @@ import java.util.Scanner;
 public class _3_Vacation {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int numbersOfGroup = Integer.parseInt(scanner.nextLine());
-        String groupTypes = scanner.nextLine();
-        String daysOfWeek = scanner.nextLine();
-        double prices = 0.0;
-        double discount = 0;
-        double allPriceSum = 0;
-        switch (daysOfWeek) {
-            case "Friday":
-                if (groupTypes.equals("Students")) {
-                    prices = 8.45;
-                    allPriceSum = numbersOfGroup * prices;
-                    if (numbersOfGroup >= 30) {
-                        allPriceSum = allPriceSum - (allPriceSum * 15 / 100);
-                    }
-                } else if (groupTypes.equals("Business")) {
-                    prices = 10.90;
-                    allPriceSum = numbersOfGroup * prices;
-                    if (numbersOfGroup >= 100) {
-                        numbersOfGroup -= 10;
-                        allPriceSum = numbersOfGroup * prices;
-                    }
-                } else if (groupTypes.equals("Regular")) {
-                    prices = 15;
-                    allPriceSum = numbersOfGroup * prices;
-                    if (numbersOfGroup >= 10 && numbersOfGroup <= 20) {
-                        allPriceSum = allPriceSum - (allPriceSum * 5 / 100);
-                    }
+        int numbersOfGroup=Integer.parseInt(scanner.nextLine());
+        String group = scanner.nextLine();
+        String day = scanner.nextLine();
+        double price=0.0;
+        double totalPrice=0.0;
+        switch (group) {
+            case "Students":
+                if (day.equals("Friday")){
+                    price=8.45;
+                } else if (day.equals("Saturday")) {
+                    price=9.80;
+                }else if (day.equals("Sunday")){
+                    price=10.46;
+                }
+                if (numbersOfGroup>=30){
+                    totalPrice=(price*numbersOfGroup);
+                    totalPrice=totalPrice-(totalPrice*0.15);
+                }else {
+                    totalPrice=price*numbersOfGroup;
                 }
                 break;
-            case "Saturday":
-                if (groupTypes.equals("Students")) {
-                    prices = 9.80;
-                    allPriceSum = numbersOfGroup * prices;
-                    if (numbersOfGroup >= 30) {
-                        allPriceSum = allPriceSum - (allPriceSum * 15 / 100);
-                    }
-                } else if (groupTypes.equals("Business")) {
-                    prices = 15.60;
-                    allPriceSum = numbersOfGroup * prices;
-                    if (numbersOfGroup >= 100) {
-                        numbersOfGroup -= 10;
-                        allPriceSum = numbersOfGroup * prices;
-                    }
-                } else if (groupTypes.equals("Regular")) {
-                    prices = 20;
-                    allPriceSum = numbersOfGroup * prices;
-                    if (numbersOfGroup >= 10 && numbersOfGroup <= 20) {
-                        allPriceSum = allPriceSum - (allPriceSum * 5 / 100);
-                    }
+            case "Business":
+                if (day.equals("Friday")){
+                    price=10.90;
+                } else if (day.equals("Saturday")) {
+                    price=15.60;
+                } else if (day.equals("Sunday")) {
+                    price=16.00;
+                }
+                if (numbersOfGroup>=100){
+                    numbersOfGroup=numbersOfGroup-10;
+                }
+                totalPrice=price*numbersOfGroup;
+                break;
+            case "Regular":
+                if (day.equals("Friday")){
+                    price=15.00;
+                }else if (day.equals("Saturday")){
+                    price=20.00;
+                } else if (day.equals("Sunday")) {
+                    price=22.50;
+                }
+                if (numbersOfGroup>10 && numbersOfGroup<20){
+                    totalPrice=price*numbersOfGroup;
+                    totalPrice=totalPrice-(totalPrice*0.05);
+                }else {
+                    totalPrice = price * numbersOfGroup;
                 }
                 break;
-            case "Sunday":
-                if (groupTypes.equals("Students")) {
-                    prices = 10.46;
-                    allPriceSum = numbersOfGroup * prices;
-                    if (numbersOfGroup >= 30) {
-                        allPriceSum = allPriceSum - (allPriceSum * 15 / 100);
-                    }
-                } else if (groupTypes.equals("Business")) {
-                    prices = 16.00;
-                    allPriceSum = numbersOfGroup * prices;
-                    if (numbersOfGroup >= 100) {
-                        numbersOfGroup -= 10;
-                        allPriceSum = numbersOfGroup * prices;
-                    }
-                } else if (groupTypes.equals("Regular")) {
-                    prices = 22.50;
-                    allPriceSum = numbersOfGroup * prices;
-                    if (numbersOfGroup >= 10 && numbersOfGroup <= 20) {
-                        allPriceSum = allPriceSum - (allPriceSum * 5 / 100);
-                    }
-                    break;
-                }
         }
-        System.out.printf("Total price: %.2f",allPriceSum);
+
+        System.out.printf("Total price: %.2f\n",totalPrice);
     }
 }

@@ -5,38 +5,45 @@ import java.util.Scanner;
 public class _2_EnglishNameOfTheLastDigit {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int number=Integer.parseInt(scanner.nextLine());
-        int lastDigit=number%10;
-        String nameOfLastNumber="";
-        switch (lastDigit){
+        int n=Integer.parseInt(scanner.nextLine());
+        returnLastDigitName(n%10);
+    }
+
+    public static int returnLastDigitName( int n) {
+        String lastNumberName="";
+        switch (n) {
+            case 0:
+                lastNumberName="zero";
+                break;
             case 1:
-                nameOfLastNumber="one";
+                lastNumberName = "one";
                 break;
             case 2:
-                nameOfLastNumber="two";
+                lastNumberName = "two";
                 break;
             case 3:
-                nameOfLastNumber="three";
+                lastNumberName = "three";
                 break;
             case 4:
-                nameOfLastNumber="four";
+                lastNumberName = "four";
                 break;
             case 5:
-                nameOfLastNumber="five";
+                lastNumberName = "five";
                 break;
             case 6:
-                nameOfLastNumber="six";
+                lastNumberName = "six";
                 break;
             case 7:
-                nameOfLastNumber="seven";
+                lastNumberName = "seven";
                 break;
             case 8:
-                nameOfLastNumber="even";
+                lastNumberName = "eight";
                 break;
             case 9:
-                nameOfLastNumber="nine";
+                lastNumberName = "nine";
                 break;
         }
-        System.out.println(nameOfLastNumber);
+        System.out.println(lastNumberName);
+        return n;
     }
 }

@@ -4,62 +4,45 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main {
+public class Main extends  Students{
+    public Main(String firstName, String lastName, int age, String town) {
+        super(firstName, lastName, age, town);
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        List<Students> students = new ArrayList<>();// създаване на списък със студенти
+        List<Students> studentsList = new ArrayList<>();
+        String lines = scanner.nextLine();
+
         while (true) {
-            String line = scanner.nextLine();
-            if (line.equals("end")) {
+            if (lines.equals("end")) {
                 break;
-            }
-            String[] studentArgs = line.split(" ");
-            String firstName = studentArgs[0];
-            String lastName = studentArgs[1];
-            int age = Integer.parseInt(studentArgs[2]);
-            String hometown = studentArgs[3];
-
-            Students student=findStudent(students,firstName,lastName);
-            if (student!=null){
-                student.setAge(age);
-                student.setHometown(hometown);
-            }else {
-                students.add(new Students(firstName,lastName,age,hometown));
-
-            }
-
-/*         boolean exists = false;
-    for (Students student : students) {
-                if (student.getFirstName().equals(firstName) && student.getLastName().equals(lastName)) {
-                    student.setAge(age);
-                    student.setHometown(hometown);
-                    exists = true;
-                    break;
+            } else {
+                String[] line = lines.split("\\s+");
+                String firstN = line[0];
+                String lastN = line[1];
+                int age = Integer.parseInt(line[2]);
+                String town = line[3];
+                Students students=new Students(firstN,lastN,age,town);
+                if (isStudentExisting(studentsList, firstN, lastN)) {
+                    for (Students student : studentsList) {
+                        if (student.getFirstName().equals(firstN) && student.getLastName().equals(lastN)) {
+                            student.setAge(age);
+                            student.setTown(town);
+                            break;
+                        }
+                    }
+                } else {
+                    studentsList.add(students);
                 }
             }
-            if (!exists) {
-                Students student = new Students(firstName, lastName, age, hometown);
-                students.add(student);
-            }*/ //
+            lines = scanner.nextLine();
         }
-
-        String filterCity = scanner.nextLine();
-
-        for (Students student : students) {
-            if (student.getHometown().equals(filterCity)) {
-                System.out.println(student.getDetails());
+        String town = scanner.nextLine();
+        for (Students students : studentsList) {
+            if (students.getTown().equals(town)) {
+                System.out.println(students.toString());
             }
         }
-    }
-
-    public static Students findStudent(List<Students> students, String firstName, String lastName) {
-        for (Students student : students) {
-            if (student.getFirstName().equals(firstName) && student.getLastName().equals(lastName)) {
-            return student;
-            }
-        }
-        return  null;
     }
 }
-
-

@@ -6,26 +6,27 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner=new Scanner(System.in);
-        List<Students>students=new ArrayList<>();// създаване на списък със студенти
-        while (true){ //== while(!"end")
-            String line=scanner.nextLine();
-            if (line.equals("end")){
-                break;
-            }
-            String[]studentArgs=line.split(" ");
-            String firstName=studentArgs[0];
-            String lastName=studentArgs[1];
-            int age=Integer.parseInt(studentArgs[2]);
-            String hometown=studentArgs[3];
-            Students student=new Students(firstName,lastName,age,hometown);//създава инстанция на класа Student
-            students.add(student);
-        }
-        String filterCity=scanner.nextLine();
+        Scanner scanner = new Scanner(System.in);
+        List<Students> studentsList=new ArrayList<>();
+        String lines=scanner.nextLine();
 
-        for (Students student : students){
-            if (student.getHometown().equals(filterCity)){
-                System.out.println(student.getDetails());
+        while (true){
+            if (lines.equals("end")){
+                break;
+            }else {
+                String[] line=lines.split("\\s+");
+                String firstN=line[0];
+                String lastN=line[1];
+                int age=Integer.parseInt(line[2]);
+                String town=line[3];
+                studentsList.add(new Students(firstN,lastN,age,town));
+            }
+            lines=scanner.nextLine();
+        }
+        String town=scanner.nextLine();
+        for (Students students:studentsList) {
+            if (students.getTown().equals(town)){
+                System.out.println(students.toString());
             }
         }
     }

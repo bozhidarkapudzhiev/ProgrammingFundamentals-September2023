@@ -4,18 +4,27 @@ import java.util.Scanner;
 
 public class _1_Ages {
     public static void main(String[] args) {
+       /*   •	0-2 – baby;
+            •	3-13 – child;
+            •	14-19 – teenager;
+            •	20-65 – adult;
+            •	>=66 – elder;
+            •	Всички стойности са включени.
+      */
         Scanner scanner = new Scanner(System.in);
         int age=Integer.parseInt(scanner.nextLine());
-        if (age>=0&&age<=2){
-            System.out.println("baby");
-        } else if (age>=3&&age<=13) {
-            System.out.println("child");
-        }else if (age>=14&&age<=19){
-            System.out.println("teenager");
-        } else if (age>=20&&age<=65) {
-            System.out.println("adult");
-        } else if (age>=66) {
-            System.out.println("elder");
+        String person="";
+        if(age>=0 && age<= 2){
+            person="baby";
+        } else if (age>=3 && age <=13) {
+            person="child";
+        } else if (age>=14 && age<=19) {
+            person="teenager";
+        }else  if (age>=20 && age<=65){
+            person="adult";
+        }else if (age>=66){
+            person="elder";
         }
+        System.out.println(person);
     }
 }

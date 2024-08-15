@@ -5,28 +5,32 @@ import java.util.Scanner;
 public class _10_PadawanEquipment {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        double budget=Double.parseDouble(scanner.nextLine());
-        int students=Integer.parseInt(scanner.nextLine());
-        double priceLightsabers=Double.parseDouble(scanner.nextLine());
-        double priceRobes=Double.parseDouble(scanner.nextLine());
-        double priceOfBelts=Double.parseDouble(scanner.nextLine());
-        priceLightsabers=(priceLightsabers+(priceLightsabers*10/100));
-        int freeBelts=0;
-        for (int i =1;i<=students;i++){
-            if (i%6==0){
-                freeBelts+=1;
-            }
-        }
-        priceLightsabers*=students;
-        priceRobes*=students;
-        priceOfBelts*=students;
-        priceOfBelts=priceOfBelts-freeBelts;
-        double allPrice=Math.ceil(priceLightsabers+priceRobes+priceOfBelts);
-        if (budget>=allPrice){
-            System.out.printf("The money is enough - it would cost %.2flv.",allPrice);
-        }else {
-            budget=budget-allPrice;
-            System.out.printf("George Lucas will need %.2flv more.",Math.abs(budget));
+         /**Прочитане на число с плаваща запетая , която указва бюджета */
+        double amountOfMoney = Double.parseDouble(scanner.nextLine());
+        /**Прочитане на броя студенти,цяло число */
+        int countOfStudent = Integer.parseInt(scanner.nextLine());
+        /**Прочитане на цената за един меч*/
+        double priceOfLightsabers = Double.parseDouble(scanner.nextLine());
+        /**Прочитане  на цената за една роба*/
+        double priceOfRobes = Double.parseDouble(scanner.nextLine());
+        /**Прочитане на цената за един колан*/
+        double priceOfBelts = Double.parseDouble(scanner.nextLine());
+
+
+        /**цена на мечовете с 10 % повече*/
+        double sumPriceLightsabers = Math.ceil(countOfStudent+0.10*countOfStudent)*priceOfLightsabers;
+        /**цена на роба*/
+        double sumRobes=countOfStudent*priceOfRobes;
+        /**цена на коланите*/
+        double sumBelts=(countOfStudent-countOfStudent/6)*priceOfBelts;
+
+        double allPrice =(sumPriceLightsabers+sumRobes+sumBelts);
+
+        if (amountOfMoney >= allPrice) {
+            System.out.printf("The money is enough - it would cost %.2flv.\n", allPrice);
+        } else {
+            double neededMoney = allPrice - amountOfMoney;
+            System.out.printf("George Lucas will need %.2flv more.\n", neededMoney);
         }
     }
 }
